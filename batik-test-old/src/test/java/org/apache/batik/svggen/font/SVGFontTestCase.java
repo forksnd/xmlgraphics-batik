@@ -39,6 +39,6 @@ public class SVGFontTestCase {
                 "    descent=\"-481\"\n" +
                 "    alphabetic=\"0\" />\n" +
                 "<missing-glyph horiz-adv-x=\"886\" d=\"M68 0V1365H750V0H68ZM136 68H682V1297H136V68Z\" />\n" +
-                "</font>\n", bos.toString());
+                "</font>\n", bos.toString().replace("\r", ""));
     }
 }
