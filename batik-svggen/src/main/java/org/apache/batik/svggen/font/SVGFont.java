@@ -286,7 +286,7 @@ public class SVGFont implements XMLConstants, SVGConstants, ScriptTags, FeatureT
             ps.print(SVG_ID_ATTRIBUTE);
             ps.print(XML_EQUAL_QUOT);
             // ps.print("id=\"");
-            ps.print(id);
+            ps.print(encodeEntities(id));
             ps.print(XML_CHAR_QUOT);
             ps.print(XML_SPACE);
             // ps.print("\" ");
